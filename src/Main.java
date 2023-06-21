@@ -3,12 +3,12 @@
 public class Main {
     public static void main(String[] args) {
 
-        int TicketPrice = 8341;
-        int amobm = 20;
-        int nbp = TicketPrice / amobm;
+        int ticketprice = 3568;
+        int bonusesfor = 20;
+        int calculation = ticketprice / bonusesfor;
 
         System.out.println("Начислено бонусных миль: ");
-        System.out.println(nbp);
+        System.out.println(calculation);
 
     }
 }
